@@ -23,7 +23,7 @@ Complete the following endpoints:
 | GET    | /api/users    | If the user is logged in, respond with an array of all the users contained in the database. If the user is not logged in repond with the correct status code and the message: 'You shall not pass!'.                                                                                                |
 
 Add support for **sessions** and **cookies**, use them to keep a record of logged in users across requests.
-
+ 
 ## Stretch Problem
 
 - Write a piece of **global** middleware that ensures a user is logged in when accessing _any_ route prefixed by `/api/users`.
